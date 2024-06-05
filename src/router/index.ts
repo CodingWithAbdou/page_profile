@@ -10,7 +10,7 @@ const routes: Array<RouteRecordRaw> = [
 ];
 
 const router = createRouter({
-    history: createWebHistory("https://khaldiabdou.com/"),
+    history: createWebHistory("/"),
     routes,
 });
 
