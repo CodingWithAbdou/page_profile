@@ -23,6 +23,7 @@
             <p data-aos-duration="1000" data-aos="fade-up">{{ $t('main.about_two') }}</p>
             <p data-aos-duration="1100" data-aos="fade-up">{{ $t('main.about_three') }}</p>
         </div>
+        <!-- <div>resolve error</div> -->
     </main>
 </template>
 
