@@ -24,7 +24,7 @@
             <p data-aos-duration="1100" data-aos="fade-up">{{ $t('main.about_three') }}</p>
         </div>
 
-        <div class="mt-24" data-aos-duration="1200" data-aos="fade-up">
+        <div class="mt-24" data-aos-duration="1000" data-aos="fade-up">
             <h3 class="font-semibold mb-4 text-lg text-neutral-700">{{ $t('main.connect_title') }}</h3>
         </div>
         <div class="flex flex-col gap-[1px] text-neutral-800">
@@ -76,9 +76,9 @@
                             tooltip = false;
                             textCopied = false;
                         "
-                        @click="copyToClipboard('contact@khaldiabdou')"
+                        @click="copyToClipboard('contact@khaldiabdou.com')"
                         class="cursor-pointer flex items-center justify-center gap-1">
-                        <span><img class="w-4" src="../assets/gmail.png" width="300" loading="lazy" alt="gmail" /> </span> <span>contact@khaldiabdou</span>
+                        <span><img class="w-4" src="../assets/gmail.png" width="300" loading="lazy" alt="gmail" /> </span> <span>contact@khaldiabdou.com</span>
                     </span>
                 </div>
             </div>
