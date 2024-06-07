@@ -1,11 +1,23 @@
 {
     "main": {
-        "job_name": "Full stack web developer - Laravel & VueJS",
+        "job_name": "Full stack web developer - laravel & vuejs",
         "full_name": "Khaldi Abdou",
         "address": "Algeria - Djelfa",
         "about_title": "About me",
         "about_one": "Software Engineer, skilled and dedicated to my work.",
-        "about_two": "Proficient in building back-end systems with considerable experience in PHP , Laravel.",
-        "about_three": "I am adept at JavaScript and excel in front-end development using modern frameworks such as Vue.js."
+        "about_two": "Proficient in building back-end systems with  experience in PHP , Laravel.",
+        "about_three": "I am adept at JavaScript and excel in front-end development using modern frameworks such as Vue.js.",
+        "connect_title": "Connect",
+        "connect_one": "Connect with me on : ",
+        "connect_two": "Browse my code on : ",
+        "connect_three": "Email me directly at : ",
+        "connect_four": "Hire me on : ",
+        "connect_five": "Buy my services on : ",
+        "copied": "copied",
+        "Click_to_copy": "Click to copy",
+        "linkedin": "linkedin",
+        "github": "github",
+        "mostaql": "mostaql",
+        "khamsat": "khamsat"
     }
 }

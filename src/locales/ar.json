@@ -6,6 +6,18 @@
         "about_title": "من أنا",
         "about_one": "مهندس برمجيات , متقن وملتزم بعملي",
         "about_two": "متمرس في بناء النظم الخلفية ولدي خبرة جيدة مع PHP، Laravel.",
-        "about_three": "أتقن JavaScript و أبرع في تطوير الواجهة الأمامية باستخدام أطر عمل حديثة مثل Vue.js"
+        "about_three": "أتقن JavaScript و أبرع في تطوير الواجهة الأمامية باستخدام أطر عمل حديثة مثل Vue.js",
+        "connect_title": "التواصل",
+        "connect_one": "تواصل معي على : ",
+        "connect_two": "تصفح الكود على : ",
+        "connect_three": "أرسل لي بريدًا مباشرًا على : ",
+        "connect_four": "وضفني  على : ",
+        "connect_five": "اشترِ خدماتي على : ",
+        "copied": "copied",
+        "Click_to_copy": "Click to copy",
+        "linkedin": "لينكدإن",
+        "github": "ڨيتهب",
+        "mostaql": "مستقل",
+        "khamsat": "خمسات"
     }
 }
