@@ -24,7 +24,7 @@
             <p data-aos-duration="1100" data-aos="fade-up">{{ $t('main.about_three') }}</p>
         </div>
 
-        <div class="mt-24" data-aos-duration="1000" data-aos="fade-up">
+        <div class="mt-24" data-aos-duration="1200" data-aos="fade-up">
             <h3 class="font-semibold mb-4 text-lg text-neutral-700">{{ $t('main.connect_title') }}</h3>
         </div>
         <div class="flex flex-col gap-[1px] text-neutral-800">
