@@ -1,5 +1,5 @@
 <template>
-    <main class="mx-auto mb-14 w-full max-w-screen-sm flex-1 overflow-x-hidden px-4 pb-32 pt-16 dark:text-white overflow-hidden">
+    <main class="mx-auto mb-14 w-full max-w-screen-sm flex-1 px-4 pb-32 pt-16 dark:text-white overflow-hidden">
         <div class="flex justify-between">
             <div class="flex gap-5 items-center" data-aos-duration="500" data-aos="fade-up">
                 <img class="rounded-full shadow-md" loading="lazy" width="100" height="100" src="../assets/nice.jpg" alt="" />
@@ -11,7 +11,7 @@
             </div>
         </div>
 
-        <div class="mt-24" data-aos-duration="700" data-aos="fade-up">
+        <div class="mt-16" data-aos-duration="700" data-aos="fade-up">
             <h3 class="font-semibold mb-4 text-lg text-neutral-700">{{ $t('main.about_title') }}</h3>
         </div>
         <div class="flex flex-col gap-[1px] text-neutral-800">
@@ -20,7 +20,7 @@
             <p data-aos-duration="1100" data-aos="fade-up">{{ $t('main.about_three') }}</p>
         </div>
 
-        <div class="mt-24" data-aos-duration="1000" data-aos="fade-up">
+        <div class="mt-16" data-aos-duration="1000" data-aos="fade-up">
             <h3 class="font-semibold mb-4 text-lg text-neutral-700">{{ $t('main.connect_title') }}</h3>
         </div>
 

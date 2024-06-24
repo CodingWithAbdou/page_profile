@@ -9,9 +9,9 @@ import en from './locales/en.json';
 import { createI18n } from 'vue-i18n';
 
 const i18n = createI18n({
-    locale: 'en',
-    fallbackLocale: 'en',
-    messages: { ar, en },
+    locale: 'ar',
+    fallbackLocale: 'ar',
+    messages: { en, ar },
 });
 createApp(App).use(router).use(i18n).mount('#app');
 AOS.init({});
