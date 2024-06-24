@@ -1,5 +1,5 @@
 <template>
-    <main class="mx-auto mb-14 w-full max-w-screen-sm flex-1 overflow-x-hidden px-4 pb-8 pt-20 dark:text-white overflow-hidden">
+    <main class="mx-auto mb-14 w-full max-w-screen-sm flex-1 overflow-x-hidden px-4 pb-32 pt-16 dark:text-white overflow-hidden">
         <div class="flex justify-between">
             <div class="flex gap-5 items-center" data-aos-duration="500" data-aos="fade-up">
                 <img class="rounded-full shadow-md" loading="lazy" width="100" height="100" src="../assets/nice.jpg" alt="" />
@@ -8,10 +8,6 @@
                     <h3 class="font-noraml text-neutral-800">{{ $t('main.job_name') }}</h3>
                     <span class="text-sm text-neutral-800">{{ $t('main.address') }}</span>
                 </div>
-            </div>
-            <div class="hidden">
-                <button v-if="lang === 'ar'" @click="changeLanguage('en')">English</button>
-                <button v-if="lang === 'en'" @click="changeLanguage('ar')">عربي</button>
             </div>
         </div>
 
@@ -27,6 +23,7 @@
         <div class="mt-24" data-aos-duration="1000" data-aos="fade-up">
             <h3 class="font-semibold mb-4 text-lg text-neutral-700">{{ $t('main.connect_title') }}</h3>
         </div>
+
         <div class="flex flex-col gap-[1px] text-neutral-800">
             <div class="flex gap-1" data-aos-duration="1000" data-aos="fade-up">
                 <span>{{ $t('main.connect_one') }}</span>
@@ -78,7 +75,7 @@
                         "
                         @click="copyToClipboard('contact@khaldiabdou.com')"
                         class="cursor-pointer flex items-center justify-center gap-1">
-                        <span><img class="w-4" src="../assets/gmail.png" width="300" loading="lazy" alt="gmail" /> </span> <span>contact@khaldiabdou.com</span>
+                        <span><img class="w-4" src="../assets/mail.png" width="300" loading="lazy" alt="gmail" /> </span> <span>contact@khaldiabdou.com</span>
                     </span>
                 </div>
             </div>
@@ -90,29 +87,15 @@
 export default {
     data() {
         return {
-            lang: 'en',
             tooltip: false,
             textCopied: false,
         };
     },
-    mounted() {
-        const savedLang = localStorage.getItem('lang');
-        if (savedLang) {
-            this.lang = savedLang;
-            this.changeLanguage(savedLang);
-        }
-    },
+
     methods: {
         copyToClipboard(text) {
             navigator.clipboard.writeText(text);
             this.textCopied = true;
-        },
-        changeLanguage(lang) {
-            this.lang = lang;
-            this.$i18n.locale = lang;
-            document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
-            // Save the selected language to storage
-            localStorage.setItem('lang', lang);
         },
     },
 };

@@ -18,6 +18,9 @@
         "linkedin": "linkedin",
         "github": "github",
         "mostaql": "mostaql",
-        "khamsat": "khamsat"
+        "khamsat": "khamsat",
+        "home": "Home",
+        "project": "Projects",
+        "cv": "Cv"
     }
 }
