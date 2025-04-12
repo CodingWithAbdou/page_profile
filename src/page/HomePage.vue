@@ -12,7 +12,7 @@
         </div>
 
         <div class="mt-16" data-aos-duration="700" data-aos="fade-up">
-            <h3 class="font-semibold mb-4 text-lg text-neutral-700">{{ $t('main.about_title') }}</h3>
+            <h3 class="font-semibold mb-4 text-lg text-neutral-700" style="margin-top: 300px">{{ $t('main.about_title') }}</h3>
         </div>
         <div class="flex flex-col gap-[1px] text-neutral-800">
             <p data-aos-duration="900" data-aos="fade-up">{{ $t('main.about_one') }}</p>
